@@ -8,7 +8,7 @@ OUTPUT_FILE = $(SCRIPTS_PATH)/game.js
 OUTPUT_FILE_MAP = $(OUTPUT_FILE).map
 
 BROWSERIFY := ./node_modules/browserify/bin/cmd.js
-BROWSER_SYNC := ./node_modules/browser-sync/bin/browser-sync.js
+BROWSER_SYNC := ./node_modules/browser-sync/dist/bin.js
 UGLIFYJS := ./node_modules/uglify-js/bin/uglifyjs
 
 install:
